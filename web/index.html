@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -18,7 +19,11 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="Taka Count BD.">
+
+  <meta name="google-signin-client_id"
+    content="312732224236-8tceu8jboaqli39oo90jpuih910hvago.apps.googleusercontent.com">
+
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -27,9 +32,9 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>money_counter</title>
+  <title>Taka Count BD</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
@@ -39,21 +44,38 @@
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
+
 <body>
+
   <script>
-    window.addEventListener('load', function(ev) {
+    window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
           });
         }
       });
     });
   </script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyALWON5PtFykuQpf08ZALhvZeOZLIXsJW0",
+      authDomain: "moneycountbd.firebaseapp.com",
+      projectId: "moneycountbd",
+      storageBucket: "moneycountbd.appspot.com",
+      messagingSenderId: "312732224236",
+      appId: "1:312732224236:web:b51a2ed6d72174467d73c9",
+      measurementId: "G-B13T7TQX2K"
+    };
+    firebase.initializeApp(firebaseConfig);
+    const messaging = firebase.messaging();
+
+  </script>
 </body>
+
 </html>

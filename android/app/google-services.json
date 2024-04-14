@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "312732224236",
+    "project_id": "moneycountbd",
+    "storage_bucket": "moneycountbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312732224236:android:449d310f220e571e7d73c9",
+        "android_client_info": {
+          "package_name": "com.moneycount.bd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312732224236-ng2dv2lm3sn0a96430cpdg0dh2l95lv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moneycount.bd",
+            "certificate_hash": "01ccf066c9205687e6b92dd875105ee1cfeb2a04"
+          }
+        },
+        {
+          "client_id": "312732224236-8tceu8jboaqli39oo90jpuih910hvago.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_zqre7iZZc6VVAWmOp0ZcMybEoT0rCLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312732224236-8tceu8jboaqli39oo90jpuih910hvago.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
