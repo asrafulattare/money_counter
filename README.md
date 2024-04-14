@@ -30,10 +30,11 @@ MoneyCount is also available on the Google Play Store. You can download it [here
 ## Screenshots
 
 ![Screenshot 1](screenshots/screenshot1.png)
-*Placeholder Caption for Screenshot 1*
+
+
 
 ![Screenshot 2](screenshots/screenshot2.png)
-*Placeholder Caption for Screenshot 2*
+
 
 ## Contributing
 
